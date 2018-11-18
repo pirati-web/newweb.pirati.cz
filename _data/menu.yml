@@ -13,16 +13,43 @@ main:
   - link: /aktuality/
     name: Aktuality
     match: aktuality
-  - link: /lide/
+  - link: /o-nas/
     name: O nás
-    match: lide
-  - link: /komunalni-volby/
-    name: Komunální volby
-    match: komunalni-volby
+    match: o-nas
     submenu:
-      - link: /komunalni-volby/mapa-zameru/
-        name: Mapa záměrů
-        match: mapa-zameru
+      - link: /lide/
+        name: Naši lidé
+        match: lide
+      - link: /regiony
+        name: Regiony
+        match: regiony
+      - link: /stanovy/
+        name: Stany
+        match: stanovy
+      - link: /otevrenost/
+        name: Otevřenost
+        match: otevrenost
+      - link: /download/
+        name: Ke stažení
+        match: download
+  - link: https://pirati.cz/snemovna
+    name: Sněmovna
+    match: snemovna
+  - link: /program/
+    name: Program
+    match: program
+      - link: /komunal2018/
+        name: Komunál 2018
+        match: komunal2018
+      - link: /psp2017/
+        name: Parlament 2017
+        match: psp2017
+      - link: /dlouhodoby/
+        name: Dlouhodobý program
+        match: dlouhodoby
+  - link: https://nalodeni.pirati.cz
+    name: Připoj se
+    match: pripoj-se
   - link: /kontakt/
     name: Kontakt
     match: kontakt
