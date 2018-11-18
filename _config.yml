@@ -21,7 +21,9 @@ organization:
   phone: +420 608 963 111
   address: |
     Na Moráni 3,
-    120 00 Praha 2
+    120 00 Praha 2,
+    +420 770 113 642 
+    <a href="mailto:michal.jokes@pirati.cz">michal.jokes@pirati.cz</a>
   residenceImg: novepice.jpg
   mapLink: https://mapy.cz/zakladni?x=14.4151543&y=50.0733415&z=18&source=addr&id=9018965&q=Na%20Mor%C3%A1ni%203
   redmineLink: https://redmine.pirati.cz/projects
@@ -33,17 +35,33 @@ organization:
 # 1) předdefinované typy (organizationEmail, organizationRedmineLink, organizationPhone, organizationTransparentAccount, organizationDataBox, piratiRootWebsite)
 # 2) vlastní řádky - zde je nutné jako type dát `custom` a vyplnit `label` a `body`
 contactSummaryItems:
+  - type: custom
+    iconClass: fa fa-university
+    label: Název strany</span>
+    body: Česká pirátská strana
+  - type: custom
+    iconClass: fa fa-university
+    label: Zkratka</span>
+    body: Pirát
   - type: organizationEmail
   - type: organizationRedmineLink
   - type: organizationPhone
+  - type: custom
+    iconClass: fa fa-music
+    label: Problémy s OSA, Intergramem apod.</span>
+    body: <a href="mailto:hudba@pirati.cz">hudba@pirati.cz</a>
+  - type: custom
+    iconClass: fa fa-globe
+    label: Zahraniční odbor <br> International Department
+    body: <a href="mailto:international@pirati.cz">international@pirati.cz</a>
+  - type: piratiRootWebsite
+  - type: organizationDataBox
+  - type: custom
+    iconClass: fa fa-university
+    label: Identifikační číslo
+    body: 71339698 
   - type: organizationTransparentAccount
     includeMoreLink: true
-  - type: organizationDataBox
-  - type: piratiRootWebsite
-  - type: custom
-    iconClass: fa fa-envelope
-    label: Vlastní řádek tabulky
-    body: <a href="http://example.com">link</a>
 
 calendar:
   # For nice look of the calendar, make sure you get Google Calendar API key

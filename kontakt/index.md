@@ -13,14 +13,20 @@ contentSize: default
   <h1 class="t-h2-alt">Přidejte se</h1>
 </div>
 
-Zajámá vás co piráti dělají? Ozvěte se Jakubu Pirátovy nebo přijďte k nám
-na schůzi kterou pořádáme v XY.
 
-Chcete přístup k pirátskym systémum? Regitrujte se na nalodění. TODO odkaz.
+Další osoby naleznete na stránce [Lidé](lide).
 
-Financí dary můžete posílat na [dary](https://dary.pirati.cz).
-Pokud chcete darovat přimo naší MS poradtě se s XY
+Setkat se s námi můžete v některém z Pirátských míst nebo [pirátské akci](pripoj-se/kalendar).
+
+Pro pomoc a radu v odborných otázkách kopírovacího monopolu či jiných se obracejte na Pirátskou poradnu na fóru.
 
 
-Strany našeho kraje jsou TODO.
+
+<div class="o-section-header o-section-header--indented">
+ <h1 class="t-h2-alt"> Zasílání účetních dokladů </h1>
+</div>
+
+
+Adresu a pokyny pro zasílání účetních dokladů najdete [zde](https://wiki.pirati.cz/fo/doklady).
+
 
