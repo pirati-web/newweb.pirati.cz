@@ -38,13 +38,14 @@ main:
   - link: /program/
     name: Program
     match: program
-      - link: /komunal2018/
+    submenu:
+      - link: /program/komunal2018/
         name: Komunál 2018
         match: komunal2018
-      - link: /psp2017/
+      - link: /program/psp2017/
         name: Parlament 2017
         match: psp2017
-      - link: /dlouhodoby/
+      - link: /program/dlouhodoby/
         name: Dlouhodobý program
         match: dlouhodoby
   - link: https://nalodeni.pirati.cz
