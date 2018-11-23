@@ -5,5 +5,14 @@ layout: page
 <div class="c-emphasized-text c-content-block">{{ content }}</div>
 
 {% if page.comic %}
-{% asset '{{ page.comic }}' %}
+	{% asset '{{ page.comic }}' %}
+{% endif %}
+
+{% if page.videa %}
+	<h2>Doprovodná videa</h2>
+	{% for video in page.videa %}
+	<div class="responsive-embed">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/{{video}}" frameborder="0" allowfullscreen></iframe>
+	</div>
+	{% endfor %}
 {% endif %}

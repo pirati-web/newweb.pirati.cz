@@ -1,0 +1,16 @@
+{% if include.campaignCategoryUid %}
+
+{% assign program = site.program | where: "campaignCategoryUid", include.campaignCategoryUid | sort:"order" %}
+
+<div class="row small-up-2 medium-up-3 large-up-4">
+{% for item in program %}
+<div class="column column-block">
+  <a href="{{item.url | relative_url }}">
+    {% asset '{{ item.img }}' %}
+    <h2>{{item.title}}</h2>
+  </a>
+</div>
+{% endfor %}
+</div>
+
+{% endif %}

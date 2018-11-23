@@ -18,3 +18,11 @@
       categoryUid: sharing
     - title: Občanská práva 
       categoryUid: rights
+
+- groupUid: psp2017  # identifier of the group, to be used in program point
+  title: Parlament 2017   # title of the campaign group
+  campaigns:
+    - title:  # individual campaigns within the group
+      categoryUid: metaPSP
+    - title: Program  # individual campaigns within the group
+      categoryUid: psp2017
