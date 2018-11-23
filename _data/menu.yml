@@ -23,9 +23,6 @@ main:
       - link: /regiony
         name: Regiony
         match: regiony
-      - link: /stanovy/
-        name: Stany
-        match: stanovy
       - link: /otevrenost/
         name: Otevřenost
         match: otevrenost
