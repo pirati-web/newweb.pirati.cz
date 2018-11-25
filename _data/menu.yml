@@ -15,8 +15,11 @@ main:
     match: aktuality
   - link: /o-nas/
     name: O nás
-    match: o-nas
+    match: o-nas, lide, regiony, otevrenost, download
     submenu:
+      - link: /o-nas/
+        name: O nás
+        match: o-nas
       - link: /lide/
         name: Naši lidé
         match: lide
