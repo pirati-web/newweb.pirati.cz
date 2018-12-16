@@ -18,7 +18,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Titulek", name: "title", widget: "string", tagname: "h1", required: true}
       - {label: "Publikovano", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma", required: true}
       - {label: "Autor", name: "author", widget: "string", required: true}
-      - {label: "Tagy oddělené čárkou", name: "tags", widget: "string", required: true}
+      - {label: "Obsah", name: "body", widget: "markdown", required: true}
+    card: {type: "image", image: "image", text: "title", required: true}
         #- {label: "Obrázek (1300x744px)", name: "image", widget: "image", required: false, tagname: "", media_folder: "assets/img/articles/"}
         #- name: "posts 2019" # Used in routes, ie.: /admin/collections/:slug/edit
         #label: "články 2019" # Used in the UI, ie.: "New Post"
