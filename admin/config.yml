@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: pirati-web/newweb.pirati.cz   # Path to your Github repository
-  branch: gh-pages              # Branch to update
+  branch: master              # Branch to update
   base_url: https://piraweboauth.herokuapp.com
 
 media_folder: "assets/img/articles/"
