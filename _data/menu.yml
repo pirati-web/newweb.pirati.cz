@@ -32,6 +32,9 @@ main:
       - link: /regiony
         name: Regiony
         match: regiony
+      - link: /o-nas/stanovy.html
+        name: Stanovy
+        match: stanovy
   - link: https://pirati.cz/snemovna
     name: Sněmovna
   - link: /program/
