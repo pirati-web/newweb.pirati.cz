@@ -16,7 +16,9 @@ contentSize: default
 
 Další osoby naleznete na stránce [Lidé](lide).
 
-Setkat se s námi můžete v některém z Pirátských míst nebo [pirátské akci](pripoj-se/kalendar).
+Setkat se s námi můžete v některém z 
+[Pirátských míst](https://www.google.com/maps/d/viewer?mid=1tmKjKVOgREAa6fjWfyQdj1_PkWZfkisk&ll=49.323982508814204%2C17.503583065624866&z=8)
+nebo [pirátské akci](pripoj-se/kalendar).
 
 Pro pomoc a radu v odborných otázkách kopírovacího monopolu či jiných se obracejte na Pirátskou poradnu na fóru.
 
