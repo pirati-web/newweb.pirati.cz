@@ -3,16 +3,31 @@ layout: default
 rbar: 
    - fb
    - calendar
-img: banner-default.jpg
+img: 'header/evropapotrebuje.png'
 ---
 
 {% include homepage/banner.html 
-   link='/komunalni-volby/'
-   title='Komunální volby 2018'
-   default='banner-default.jpg'
-   mobile='banner-mobile.jpg'
+   link='https://evropapotrebuje.cz'
+   title='Evropa potřebuje Piráty'
+   default='header/evropapotrebuje.png'
+   mobile='header/EvropaPotrebuje5.png'
    breakpoint=640
 %}
 
+<div class="row c-hp-banner">
+{% include homepage/half-banner.html 
+   link='https://forms.gle/aXbDt873oZHV8ost7'
+   title='Evropa potřebuje Piráty'
+   default='header/evropa-potrebuje-plachty.png'
+%}
+{% include homepage/half-banner.html 
+   link='https://www.piratskyobchod.cz/'
+   title='Evropa potřebuje Piráty'
+   default='header/evropa-potrebuje-balicek-volice.jpg'
+%}
+</div>
+
+{% comment %}
 {% include homepage/news-with-rbar.html %}
+{% endcomment %}
 
