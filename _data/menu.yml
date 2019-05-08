@@ -21,19 +21,16 @@ main:
     match: aktuality
   - link: /otevrenost/
     name: Transparentnost
-    match: otevrenost, download
+    match: otevrenost, download, stanovy
     submenu:
       - link: /otevrenost/
         name: Otevřenost
         match: otevrenost
+      - link: /o-nas/stanovy.html
+        name: Stanovy
       - link: /download/
         name: Ke stažení
         match: download
-      - link: /o-nas/stanovy.html
-        name: Stanovy
-      - link: https://pirati.cz/snemovna
-        name: Sněmovna
-        match: stanovy
   - link: /lide/
     name: Naši lidé
     match: lide
