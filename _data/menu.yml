@@ -2,9 +2,6 @@ top:
   - link: "pirati.cz"
     url:  "https://www.pirati.cz"
     icon: "fa fa-home"
-  - link: "Naše wiki"
-    url:  "https://wiki.pirati.cz"
-    icon: "fa fa-home"
   - link: "Pirátské listy"
     url:  "http://www.piratskelisty.cz"
     icon: "fa fa-newspaper-o"
@@ -14,29 +11,31 @@ top:
   - link: "Připojte se"
     url:  "https://nalodeni.pirati.cz"
     icon: "fa fa-users"
+  - link: https://pirati.cz/snemovna
+    name: Sněmovna
 
 main:
   - link: /aktuality/
     name: Aktuality
     match: aktuality
-  - link: /o-nas/
-    name: O nás
-    match: o-nas, lide, regiony
+  - link: /otevrenost/
+    name: Transparentnost
+    match: otevrenost, download
     submenu:
-      - link: /o-nas/
-        name: O nás
-        match: o-nas
-      - link: /lide/
-        name: Naši lidé
-        match: lide
-      - link: /regiony
-        name: Regiony
-        match: regiony
+      - link: /otevrenost/
+        name: Otevřenost
+        match: otevrenost
+      - link: /download/
+        name: Ke stažení
+        match: download
       - link: /o-nas/stanovy.html
         name: Stanovy
+      - link: https://pirati.cz/snemovna
+        name: Sněmovna
         match: stanovy
-  - link: https://pirati.cz/snemovna
-    name: Sněmovna
+  - link: /lide/
+    name: Naši lidé
+    match: lide
   - link: /program/
     name: Program
     match: program
@@ -50,18 +49,6 @@ main:
       - link: /program/dlouhodoby/
         name: Dlouhodobý program
         match: dlouhodoby
-  - link: https://nalodeni.pirati.cz
-    name: Připoj se
-  - link: /otevrenost/
-    name: Zveřejňujeme
-    match: otevrenost, download
-    submenu:
-      - link: /otevrenost/
-        name: Otevřenost
-        match: otevrenost
-      - link: /download/
-        name: Ke stažení
-        match: download
   - link: /kontakt/
     name: Kontakt
     match: kontakt
