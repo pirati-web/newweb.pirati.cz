@@ -1,0 +1,109 @@
+<script>
+var api_regions = "{{include.api}}";
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.8/raphael.js"></script>
+<script type="text/javascript">
+/**
+ * Make map of czech regions for pirati.cz/regiony
+ * @param {collection} data
+ * @param {string} url attribute to use as url
+ **/
+var makemap = function(data, url) {
+  var settings = data[0].settings;
+
+  $(settings.id).width(settings.size.width);
+  $(settings.id).height(settings.size.height);
+  var R = Raphael(settings.id, settings.size.width, settings.size.height);
+
+  $("#region-description>div").hide();
+
+  var marked = null;
+  var i = 0;
+  var reg_list = $('#regions-list');
+  var reg_list2 = $('#regions-list-2');
+
+  var regions = data[0].regions;
+  $.each(regions, function(index, region) {
+    if(i < 7 ) {
+      var li = $('<li/>').appendTo(reg_list);
+      var span = $('<a/>').text(region.name).attr('href', region[url]).appendTo(li);
+    } else {
+      var li2 = $('<li/>').appendTo(reg_list2);
+      var span2 = $('<a/>').text(region.name).attr('href', region[url]).appendTo(li2);
+    }
+    i++;
+
+    var custom_attrs = {"title": region.name};
+    var attrs = $.extend(settings.region_attrs, custom_attrs);
+
+    if(settings.colors) {
+      region.color = Raphael.getColor();
+    } else {
+      region.color = "#666";
+    }
+    var path_def = null;
+    var reg_id = region.id;
+
+    $.each(region.paths, function(index, path) {
+      path = R.path(path).scale(
+        settings.size.scale,
+        settings.size.scale,
+        0,0).attr(attrs);
+
+        var click = function() {
+          $(location).attr('href',region[url]);
+        };
+        var dblclick = function() {
+          window.open(region[url]);
+        };
+        var over = function() {
+          path.animate({fill: region.color}, 500).attr({'cursor': "pointer"});
+        };
+        var out = function() {
+          path.animate({fill: "#333"}, 500);
+        };
+
+        path[0].onclick = click;
+        path[0].ondblclick = dblclick;
+        path[0].onmouseover = over;
+        path[0].onmouseout = out;
+    });
+  });
+};
+
+$(function() {
+  if($('#regions-map').length) {
+    var use = 'url';  /* Default link in map */
+    $.get(api_regions)
+      .done(function(data) { makemap(data, use); })
+      .fail(function(data) { console.log("Error: map"); });
+  }
+});
+
+</script>
+
+
+<section id='regions-map'>
+    <div class="row" style="background-color: lightgray;">
+        <div class="large-7 columns hide-for-small-only" style="margin-bottom: 20px;">
+            <div id="paper" class=""></div>
+        </div>
+        <div class="large-5 columns" style="margin-top: 40px;">
+            <article class="c-BlogPosting" style="background-color: white; margin-top: 40px; margin-right: 20px">
+                <div class="row c-BlogPosting-content">
+                    <h3 style="margin-left: 45px">{{include.title}}</h3>
+                    <div class="columns small-6">
+                        <ul id="regions-list" style="margin-left: 25px">
+                        </ul>
+                    </div>
+                    <div class="columns small-6">
+                        <ul id="regions-list-2">
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,27 @@
+---
+title: Data o regionech
+---
+{% comment %}
+Praha musí být první, kvůli vykreslování
+{% endcomment %}
+
+{% assign map = site.data.region-map %}
+{% assign regions = site.data.regions %}
+
+[
+  {"regions":
+     [
+      {% for region in regions %}
+        {% assign id = region.id %}
+        {
+          "id": "{{ id }}",
+          "name": "{{ region.name }}",
+          "fullname": "{{ region.fullname }}",
+          "url": "{{ region.url}}",
+          "paths"    : ["{{ map.paths[id] | join: '", "' }}"]
+        }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+     ],
+  "settings": {{map.settings | jsonify}}
+  }
+]

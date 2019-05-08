@@ -11,8 +11,8 @@ top:
   - link: "Připojte se"
     url:  "https://nalodeni.pirati.cz"
     icon: "fa fa-users"
-  - link: https://pirati.cz/snemovna
-    name: Sněmovna
+  - link: "Sněmovna"
+    url: https://pirati.cz/snemovna
 
 main:
   - link: /aktuality/
