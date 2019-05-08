@@ -1,7 +1,4 @@
 top:
-  - link: "pirati.cz"
-    url:  "https://www.pirati.cz"
-    icon: "fa fa-home"
   - link: "Pirátské listy"
     url:  "http://www.piratskelisty.cz"
     icon: "fa fa-newspaper-o"
@@ -11,8 +8,12 @@ top:
   - link: "Připojte se"
     url:  "https://nalodeni.pirati.cz"
     icon: "fa fa-users"
+  - link: "Dary"
+    url:  "https://www.dary.pirati.cz"
+    icon: "fa fa-gift"
   - link: "Sněmovna"
     url: https://pirati.cz/snemovna
+    icon: "fa fa-university"
 
 main:
   - link: /aktuality/
@@ -36,10 +37,13 @@ main:
   - link: /lide/
     name: Naši lidé
     match: lide
-  - link: /program/
+  - link: /program/europarlament2019/
     name: Program
     match: program
     submenu:
+      - link: /program/europarlament2019/
+        name: Europarlament 2019
+        match: komunal2018
       - link: /program/komunal2018/
         name: Komunál 2018
         match: komunal2018

@@ -26,3 +26,11 @@
       categoryUid: metaPSP
     - title: Program  # individual campaigns within the group
       categoryUid: psp2017
+
+- groupUid: euro2019  # identifier of the group, to be used in program point
+  title: Evropský parlament 2019   # title of the campaign group
+  campaigns:
+    - title: # individual campaigns within the group
+      categoryUid: euro2019preambule
+    - title:  # individual campaigns within the group
+      categoryUid: euro2019
