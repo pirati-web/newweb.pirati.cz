@@ -1,1 +1,138 @@
 @import 'pirati';
+
+.timeline-headline {
+  @include breakpoint(medium up) {
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+}
+
+.timeline .timeline-item::after, .timeline .timeline-item::before {
+  clear: both;
+  content: '';
+  display: block;
+  width: 100%;
+}
+
+.timeline {
+  position: relative;
+
+  @include breakpoint(medium up) {
+    &:before {
+      background: $light-gray;
+      content: '';
+      height: 100%;
+      left: 50%;
+      position: absolute;
+      top: 0;
+      width: 3px;
+    }
+
+    &:after {
+      clear: both;
+      content: '';
+      display: table;
+      width: 100%;
+    }
+  }
+}
+
+.timeline-item {
+  margin-bottom: 1rem;
+  position: relative;
+
+  @include breakpoint(medium up) {
+    margin-bottom: 3rem;
+  }
+
+  &:last-of-type {
+    background: $body-background;
+    margin-bottom: 0;
+  }
+}
+
+.timeline-icon {
+  display: none;
+  background: $medium-gray;
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  left: 50%;
+  margin-left: -2rem;
+
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  text-align: center;
+
+  i {
+    font-size: 26px;
+    line-height: 4rem;
+  }
+
+  @include breakpoint(medium up) {
+    display: block;
+  }
+}
+
+.timeline-content {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-content__media {
+  display: none;
+}
+
+@include breakpoint(medium up) {
+  .timeline-content {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .timeline-content__desc {
+    flex: 1;
+    margin-right: 6rem;
+    text-align: right;
+  }
+
+  .timeline-content__media {
+    display: block;
+    flex: 1;
+    margin-left: 6rem;
+    text-align: left;
+
+    img {
+      max-height: 20rem;
+    }
+  }
+
+  .timeline-content.timeline-content--right {
+    .timeline-content__desc {
+      order: 2;
+      margin-right: 0;
+      margin-left: 6rem;
+      text-align: left;
+    }
+
+    .timeline-content__media {
+      order: 1;
+      margin-left: 0;
+      margin-right: 6rem;
+      text-align: right;
+    }
+  }
+}
+
+
+.timeline-content__date {
+  @include headerStyle('h6', sub);
+
+  margin-bottom: 0;
+}
+
+.timeline-content__title {
+  @include headerStyle('h5', main);
+}
+
