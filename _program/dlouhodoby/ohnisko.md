@@ -3,8 +3,6 @@ title: Ohnisko
 img:
 category: dlouhodoby
 topic: meta
-campaignCategoryUid: meta
-campaignGroupUid: dlouhodoby
 ---
 
 Internet se stal svobodným prostorem pro vyjadřování názorů, sdílení informací, práci a zábavu. Několik desetiletí se rozvíjel bez pozornosti politiků a velkých firem. Zbavil staré struktury monopolu na šíření informací a nyní je začíná zbavovat i monopolu ekonomického a mocenského…

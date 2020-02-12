@@ -1,11 +1,8 @@
 ---
 title: Politické strany
-img: program/dlouhodoby-komix/polstr.png
-comic: program/dlouhodoby-komix/polstr.png
+img: https://www.pirati.cz/_media/rp/program/polstr.png
 category: dlouhodoby
 topic: Demokracie
-campaignCategoryUid: democracy
-campaignGroupUid: dlouhodoby
 ---
 
 Na fungování politických stran do značné míry závisí fungování celého státu. Proto prosazujeme transparentní hospodaření politických stran, nezávislost na byznysu a rovné podmínky v politické soutěži. Pouze za těchto předpokladů mohou politické strany fungovat v zájmu veřejnosti a přispívat ke kultivaci politického prostředí.

@@ -16,31 +16,16 @@ top:
     icon: "fa fa-university"
 
 main:
+  #matche oddělené čárkou zatím nefunguji - když jste na dané stranec to menu není oranžové, pokud to chcete zprovoznit poproste Jitku je to cca 2h práce
   - link: /aktuality/
     name: Aktuality
     match: aktuality
-  - link: /otevrenost/
-    name: Transparentnost
-    match: otevrenost, download, stanovy
-    submenu:
-      - link: /otevrenost/
-        name: Otevřenost
-        match: otevrenost
-      - link: /o-nas/stanovy.html
-        name: Stanovy
-      - link: /download/
-        name: Ke stažení
-        match: download
-  - link: /lide/
-    name: Naši lidé
-    match: lide
-  - link: /program/europarlament2019/
+  - link: /program/
     name: Program
     match: program
     submenu:
       - link: /program/europarlament2019/
         name: Europarlament 2019
-        match: komunal2018
       - link: /program/komunal2018/
         name: Komunál 2018
         match: komunal2018
@@ -48,33 +33,97 @@ main:
         name: Parlament 2017
         match: psp2017
       - link: /program/dlouhodoby/
-        name: Dlouhodobý program
+        name: Dlouhodobý
         match: dlouhodoby
+  - link: /o-nas/
+    name: O nás
+    match: o-nas, regiony
+    submenu:
+      - link: '/lide/'
+        name: Lidé
+      - link: '/regiony/'
+        name: Regiony
+      - link: /download/
+        name: Ke stažení
+        match: download
+      - link: /assets/pdf/piratska-strategie.pdf
+        name: Pirátská strategie
+  - link: /snemovna/
+    name: Parlament
+    submenu:
+      - link: /snemovna/
+        name: Sněmovna
+      - link: https://senat.pirati.cz
+        name: Senát
+      - link: /europarlament
+        name: Europarlament
+  - notInMainManu: yes
+    link: /europarlament/
+    name: Piráti v europarlamntu
+    match: europarlament
+    submenu: 
+      - link: /europarlament/aktuality
+        name: Aktuality
+      - link: /europarlament/europoslanci/
+        name: Europoslanci
+      - link: /program/europarlament2019/
+        name: Program
+      - link: /europarlament/hospodareni
+        name: Hospodaření
+
+  - link: https://nalodeni.pirati.cz 
+    name: Připoj se
+    match: pripoj-se
   - link: /kontakt/
     name: Kontakt
     match: kontakt
 
 bottom:
-  - class: small-12 medium-4
+  - class: small-12 medium-3
+    title: O nás
+    link: /o-nas/
+    links:
+      - link: '/lide/'
+        name: Lidé
+      - link: '/regiony/'
+        name: Regiony
+      - link: '/program/'
+        name: Program
+      - link: '/o-nas/stanovy.html'
+        name: Stanovy
+      - link: '/hoax'
+        name: Hoaxy
+  - class: small-12 medium-3
     title: Připoj se
+    link: https://nalodeni.pirati.cz
     links:
       - link: /kontakt/
         name: Dej nám vědět
-  - class: small-12 medium-4
+      - link: '/feed.xml'
+        name: RSS / Atom feed
+      - link: '/ke-stazeni/'
+        name: Ke stažení
+  - class: small-12 medium-3
     title: Makáme
+    link: https://piratipracuji.cz
     links:
-      - link: /lide/
-        name: Lidé
-      - link: /komunalni-volby/
-        name: Volby
       - link: /aktuality/
         name: Aktuality
-  - class: small-12 medium-4
+      - link: 'pripoj-se/kalendar/'
+        name: Kalendář
+  - class: small-12 medium-3
     title: Otevřenost
     links:
       - link: https://ucet.pirati.cz
-        name: Transparentní účet
+        name: Účet dle §17b ZPS
+        title: Zvláštní účet ve smyslu § 17b zákona č. 424/1991 Sb. o sdružování v politických stranách
       - link: https://smlouvy.pirati.cz
         name: Registr smluv
       - link: https://wiki.pirati.cz/fo/otevrene_ucetnictvi
         name: Otevřené účetnictví
+      - link: https://drive.google.com/drive/folders/1p9XK-pSPpOd60JGNCNnW8q31tltNki6p
+        title: "Senátní volby 2018 - přehled darů"
+        name: Senát - dary 2018
+      - link: https://wiki.pirati.cz/fo/start
+        name: Financování
+        title: Financování a hospodaření 

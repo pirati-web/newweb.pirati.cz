@@ -1,11 +1,8 @@
 ---
 title: Volnočasové aktivity
-img: program/dlouhodoby-komix/dobrovolnost.png
-comic: program/dlouhodoby-komix/dobrovolnost.png
+img: https://www.pirati.cz/_media/rp/program/dobrovolnost.png
 category: dlouhodoby
 topic: Občanská práva
-campaignCategoryUid: rights
-campaignGroupUid: dlouhodoby
 ---
 
 Množství aktivně využitého volného času je měřítkem svobody, podmínkou osobního rozvoje a konečným cílem snažení celé společnosti. Prosazujeme jasná pravidla pro aktivní podporu dobrovolnictví a volnočasových aktivit.

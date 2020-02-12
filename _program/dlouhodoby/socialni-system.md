@@ -3,8 +3,6 @@ title: Sociální systém
 img:
 category: dlouhodoby
 topic: Veřejné služby
-campaignCategoryUid: service
-campaignGroupUid: dlouhodoby
 ---
 
 Garantem sociálního systému musí být stát. Sociální politika státu je základním pilířem společenské stability. Úkolem státu je vytvořit pro všechny své občany podmínky, v nichž by mohli důstojně a zdravě žít.

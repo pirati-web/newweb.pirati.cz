@@ -2,8 +2,6 @@
 title: Doprava
 img:
 category: dlouhodoby
-campaignGroupUid: dlouhodoby
-campaignCategoryUid: service
 topic: Veřejné služby
 ---
 

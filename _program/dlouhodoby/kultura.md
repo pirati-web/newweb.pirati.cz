@@ -1,11 +1,8 @@
 ---
 title: Svobodná kultura
-img: program/dlouhodoby-komix/svobodna-kultura.png
-comics: program/dlouhodoby-komix/svobodna-kultura.png
+img: https://www.pirati.cz/_media/rp/program/me_283_killingscribes_cs.png
 category: dlouhodoby
 topic: Sdílení
-campaignCategoryUid: sharing
-campaignGroupUid: dlouhodoby
 ---
 
 Pirátská strana podporuje autorskou tvorbu a umění a zdůrazňuje přitom společenské a kulturní změny, které jsou s nimi ve 21. století spojeny. Zvlášť významnou roli má svobodná kultura, která je naším vzorem a tvůrcům nabízí inspiraci, jak může jejich tvorba vzkvétat v podmínkách digitálního věku.

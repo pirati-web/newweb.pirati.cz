@@ -1,8 +1,7 @@
 ---
 title: Finance
-img: program/psp2017/finance.png
-campaignCategoryUid: psp2017
-campaignGroupUid: psp2017
+category: psp2017
+img: finance.png
 approved: https://forum.pirati.cz/hlasovani-republikoveho-vyboru-f578/rv-26-2016-program-2017-finance-r-h-3-k-t36942.html
 garant: tibor.vansa
 relatives:

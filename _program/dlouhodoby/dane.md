@@ -1,10 +1,7 @@
 ---
 title: Daňový systém
-img: program/dlouhodoby-komix/dane.png
-comic: program/dlouhodoby-komix/dane.png
+img: https://www.pirati.cz/_media/rp/program/me_308_taxincentives.png
 category: dlouhodoby
-campaignGroupUid: dlouhodoby
-campaignCategoryUid: economy
 topic: Hospodářství
 ---
 

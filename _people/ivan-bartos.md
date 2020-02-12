@@ -16,22 +16,22 @@ mail:
 mob:			   +420 603 415 378
 office: 
   - address: Jiřího náměstí 39, 290 33  Poděbrady
-    opening: "Pondělí 14:00 - 18:00, objednání návštěvy: kancelar-podebrady@pirati.cz nebo 778 111 462. V pondělí 15. 4. bude kancelář z pracovních důvodů mimo provoz. Děkuji za pochopení."
+    opening: "Pondělí 14:00 - 18:00, objednání návštěvy: kancelar-podebrady@pirati.cz nebo 778 111 462."
 profiles:
   github:
   facebook:    https://www.facebook.com/ivan.bartos.37
   twitter:		 https://twitter.com/pirativanbartos
   flickr:      https://www.flickr.com/search/?user_id=68741528%40N03&view_all=1&text=ivan%20barto%C5%A1
-  report:      https://forum.pirati.cz/poslanci-f884/report-poslance-ivana-bartose-t38992.html
 asistenti:
-  - name: Mgr. Věra Marušiaková
-    mail: vera.marusiakova@pirati.cz
+   - name: Mgr. Věra Marušiaková
+     mail: vera.marusiakova@pirati.cz
 ordrp: 1
 ordcar: 1
 ordga: 3
-ordpsp: 2
+ordpsp: 6
 report: 1Vm9V6BS0Yaeop1W09jSeLsBoFaWEGpJ_
 redmine: 157
+mpv: 157
 carousel:
   img: ivan-bartos.jpg
   text: |

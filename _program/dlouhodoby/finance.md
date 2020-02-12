@@ -1,11 +1,8 @@
 ---
 title: Finance
-img: program/dlouhodoby-komix/finance.png
-comic: program/dlouhodoby-komix/finance.png
+img: https://www.pirati.cz/_media/rp/program/korporace.png
 category: dlouhodoby
 topic: Hospodářství
-campaignCategoryUid: economy
-campaignGroupUid: dlouhodoby
 ---
 
 Piráti prosazují omezení vlivu globálního finančního systému, a to zejména omezením dluhového financování, vyrovnanými veřejnými rozpočty, zdaněním finančního sektoru, volnou konkurencí měn a zákazem zachraňování bank státy. Chceme zabránit plíživé privatizaci státu jeho věřiteli.

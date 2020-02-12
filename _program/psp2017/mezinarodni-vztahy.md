@@ -1,8 +1,7 @@
 ---
 title: Mezinárodní vztahy
-campaignCategoryUid: psp2017
-campaignGroupUid: psp2017
-img: program/psp2017/mezinarodni-vztahy.png
+category: psp2017
+img: mezinarodni-vztahy.png
 approved: https://forum.pirati.cz/post512857.html
 garant: mikulas.peksa
 relatives:

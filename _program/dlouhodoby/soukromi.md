@@ -1,9 +1,8 @@
 ---
 title: Soukromí
+img: https://www.pirati.cz/_media/program/soukromi_kamery_na_zachode.png
 category: dlouhodoby
 topic: Občanská práva
-campaignCategoryUid: rights
-campaignGroupUid: dlouhodoby
 ---
 
 Pirátská strana prosazuje respekt pro anonymitu a lepší ochranu lidského soukromí. Plošné sledování, bezdůvodné policejní prohlídky a odposlouchávání veškeré telekomunikace jsou prostředky, jejichž nasazení odmítáme.

@@ -1,8 +1,7 @@
 ---
 title: Místní rozvoj
-campaignCategoryUid: psp2017
-campaignGroupUid: psp2017
-img: program/psp2017/mistni-rozvoj.svg
+category: psp2017
+img: mistni-rozvoj.svg
 approved: https://forum.pirati.cz/republikovy-vybor-f248/rv-48-2017-program-2017-mistni-rozvoj-t37432.html
 garant: vojtech.franta
 relatives: []
