@@ -14,15 +14,15 @@ mail:
 mob:			  +420 607 580 015
 direct-contact: false
 asistenti:
-  - name: Dan Kolář
-    mail: KolarDan@psp.cz
-    tel:  +420 778 111 470
+  - name: Stanislava Pajerová
+    mail: profanto@psp.cz
+    tel:  726 362 025
 profiles:
   web:          https://www.profant.eu
   github:       https://github.com/kedrigern
   facebook: 		https://www.facebook.com/ondrej.profant
   twitter: 		  https://twitter.com/ondrej_profant
-  flickr:		https://www.flickr.com/search/?user_id=68741528%40N03&view_all=1&text=Profant
+  flickr:		    https://www.flickr.com/search/?user_id=68741528%40N03&sort=date-taken-desc&view_all=1&text=ond%C5%99ej%20profant
   report:       https://forum.pirati.cz/poslanci-f884/report-poslance-ondrej-profant-t39019.html
 ordpraha: 2
 ordga: 4
@@ -30,7 +30,6 @@ ordpsp: 20
 videa:
   - JRdjRJjWEx0
 redmine: 3
-mpv: 3
 report: 1dBTFBld5zAz5JSzwfHwU26li4i0eyNRn
 calendar: re22cium9203etd7jv7crbf7ck%40group.calendar.google.com
 ---

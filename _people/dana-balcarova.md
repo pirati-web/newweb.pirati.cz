@@ -7,25 +7,22 @@ category:                 	# kategorie: rp, praha, vary, hradec, jmk, senat
 - ga
 - psp
 img: people/dana-balcarova.jpg   # 165 x 220
-description: poslankyně PS PČR, garantka programového bodu životní prostředí pro volby do Poslanecké sněmovny 2017             	# kratký popis, max 160 znaků
+description: poslankyně PS PČR, garantka programového bodu životní prostředí             	# kratký popis, max 160 znaků
 direct-contact: true
 mail:
 - dana.balcarova@pirati.cz
-mob:			  +420 607 575 772
+mob:			  420 607 575 772
 asistenti:
-  - name: Kristina Marie Kubcová
-  - name: Nikola Havlová
-mob:        +420 605 458 159
+  - name: Anna Doová
 profiles:
   github:                 
   facebook: 		  https://www.facebook.com/dana.balcarova
   twitter: 		  https://twitter.com/danabalcarova?lang=cs
   flickr:     		  https://www.flickr.com/search/?text=dana%20balcarov%C3%A1
 ordga: 11
-ordpsp: 7
+ordpsp: 4
 report: 1V4Tkv-LPjqZ6ZSwsZy6UfWjHOl9CqzGo
 redmine: 94
-mpv: 94
 calendar: 2usth4v1d8e5svifj34eg15kfk%40group.calendar.google.com
 
 ---

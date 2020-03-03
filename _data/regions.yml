@@ -1,0 +1,58 @@
+- id: praha
+  name: Praha
+  fullname: Krajské sdružení Praha
+  url: https://praha.pirati.cz
+- id: jiznicechy
+  name: Jižní Čechy
+  fullname: Krajské sdružení Jihočeský kraj
+  url: https://jihocesky.pirati.cz
+- id: jiznimorava
+  name: Jižní Morava
+  fullname: Krajské sdružení Jihomoravský kraj
+  url: https://jihomoravsky.pirati.cz
+- id: karlovarsko
+  name: Karlovarský kraj
+  fullname: Krajské sdružení Karlovarský kraj
+  url: http://piratikvk.cz/
+- id: kralovehradecko
+  name: Královéhradecký kraj
+  fullname: Krajské sdružení Královéhradecký kraj
+  url: https://piratihk.cz/
+- id: liberecko
+  name: Liberecký kraj
+  fullname: Krajské sdružení Liberecký kraj
+  category: regiony
+  url: https://liberecky.pirati.cz
+- id: moravskoslezsko
+  name: Moravskoslezský kraj
+  fullname: Krajské sdružení Moravskoslezský kraj
+  url: https://moravskoslezsky.pirati.cz
+- id: olomoucko
+  name: Olomoucký kraj
+  fullname: Krajské sdružení Olomoucký kraj
+  url: https://olomoucky.pirati.cz
+- id: pardubicko
+  name: Pardubický kraj
+  fullname: Krajské sdružení Pardubický kraj
+  url: https://pardubicky.pirati.cz
+- id: plzensko
+  name: Plzeňský kraj
+  fullname: Krajské sdružení Plzeňský kraj
+  url: https://plzensky.pirati.cz/
+- id: strednicechy
+  name: Střední Čechy
+  fullname: Krajské sdružení Středočeský kraj
+  url: https://stredocesky.pirati.cz
+- id: ustecko
+  name: Ústecký kraj
+  fullname: Krajské sdružení Ústecký kraj
+  url: https://ustecky.pirati.cz
+- id: vysocina
+  name: Kraj Vysočina
+  fullname: Krajské sdružení Vysočina
+  category: regiony
+  url: https://vysocina.pirati.cz/
+- id: zlinsko
+  name: Zlínský kraj
+  fullname: Krajské sdružení Zlínský kraj
+  url: https://zlinsky.pirati.cz/

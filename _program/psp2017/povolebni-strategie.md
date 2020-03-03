@@ -1,6 +1,8 @@
 ---
 title: Povolební strategie
-img: articles/2017/poslanecky-klub.jpg
+img: program/psp2017/poslanecky-klub.jpg
+campaignCategoryUid: metaPSP
+campaignGroupUid: psp2017
 rbarImgOff: true
 ---
 

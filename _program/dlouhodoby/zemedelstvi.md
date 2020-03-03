@@ -3,6 +3,8 @@ title: Zemědělství
 img:
 category: dlouhodoby
 topic: Hospodářství
+campaignCategoryUid: economy
+campaignGroupUid: dlouhodoby
 ---
 
 Současný rozvoj zemědělství, založený na soustředění vlastnictví půdy, masovém použití pesticidů a těžké mechanizace je trvale neudržitelný. Současný dotační systém zajišťuje aktivním zemědělcům pouhé přežívání, zatímco spekulantům s půdou a obchodním řetězcům umožňuje dosahovat obrovských, státem dotovaných zisků. Degradaci zemědělské půdy, narušování zemědělské krajiny a odliv obyvatel z venkova je třeba zastavit.

@@ -1,7 +1,8 @@
 ---
 title: Doprava a logistika
-category: psp2017
-img: doprava.svg
+campaignCategoryUid: psp2017
+campaignGroupUid: psp2017
+img: program/psp2017/doprava.svg
 approved: https://forum.pirati.cz/hlasovani-republikoveho-vyboru-f578/topic37507.html
 garant: david.witosz
 videa:

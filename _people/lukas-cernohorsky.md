@@ -8,7 +8,7 @@ category:                 	# kategorie: rp, praha, vary, hradec, jmk, senat
 - psp
 img: people/lukas-cernohorsky.jpg   # 165 x 220
 description: poslanec za Moravskoslezský kraj           	# kratký popis, max 160 znaků
-ordpsp: 2
+ordpsp: 3
 mail:
 - lukas.cernohorsky@pirati.cz
 mob:			  +420 601 573 955
@@ -29,7 +29,6 @@ profiles:
   flickr:
 report: 1Wtr92-X7nLh643jdL1z3J2PdwWiVpwZa
 redmine: 114
-mpv: 114
 calendar: rq39momo7ihnr2um3pmatnt2j8%40group.calendar.google.com
 <!--  report_orig: https://forum.pirati.cz/poslanci-f884/report-lukas-cernohorsky-t39059.html-->
 ---

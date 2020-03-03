@@ -1,0 +1,7 @@
+  <div class="medium-6 small-12 columns">
+    <a href="{{ include.link }}" title="{{ include.title }}" class="c-hp-banner__link">
+      {% capture img %}{% asset '{{ include.default }}' magick:resize='1135x' @path %}{% endcapture %}
+        <img src="{{ img }}" alt="{{ include.title }}"  class="c-hp-banner__media">
+    </a>
+  </div>
+

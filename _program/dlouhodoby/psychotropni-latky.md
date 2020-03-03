@@ -1,8 +1,11 @@
 ---
 title: Psychotropní látky
-img: https://www.pirati.cz/_media/program/me_drogy.jpg
+img: program/dlouhodoby-komix/me_drogy.jpg
+comic: program/dlouhodoby-komix/me_drogy.jpg
 category: dlouhodoby
 topic: Občanská práva
+campaignCategoryUid: rights
+campaignGroupUid: dlouhodoby
 ---
 
 Padesát let po podepsání Jednotné úmluvy o omamných látkách z roku 1961 jsme svědky celosvětového selhání války proti drogám. Výroba nelegálních psychotropních látek a obchod s nimi dnes představují jedno z nejvýdělečnějších světových průmyslových odvětví. Jeho odhadovaný obrat 320 miliard dolarů ročně[^fn-01] je beze zbytku kontrolován zločinci. Psychotropní látky jsou kvůli tomu snadno dostupné na černém trhu a to nejen dospělým, ale i dětem.

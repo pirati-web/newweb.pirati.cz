@@ -3,6 +3,8 @@ title: Životní prostředí
 img:
 category: dlouhodoby
 topic: Sdílení
+campaignCategoryUid: sharing
+campaignGroupUid: dlouhodoby
 ---
 
 **Životní prostředí**

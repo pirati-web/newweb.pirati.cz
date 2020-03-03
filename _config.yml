@@ -1,29 +1,127 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Toto je soubor s hlavním nastavením. Na začátku je nastavení proměných, které
+# je třeba přispůsobit si pro váš web. Později v anglicky popsané části jsou více
+# technické nastavení
+#
 
-# Site settings
+keywords: piráti, česká pirátská strana, svoboda, demokracie, název města, zkratka města, místní združení,
 title: Pirátská strana
 email: to@pirati.cz
 description: Prosazujeme fungující moderní politiku založenou na využití technologií 21. století pro otevřenou demokratickou společnost.
 keywords: piráti, česká pirátská strana, svoboda, demokracie, piratsky, kontrola moci a mocných, zjednodušení státu pomocí technologií, ochranu občanů před šikanou, obranu svobody, černá na bílé, ivan bartoš, e-government, politika pro 21. století, 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.pirati.cz" # the base hostname & protocol for your site
-
-# Build settings
-markdown: kramdown
-theme: jekyll-theme-pirati
 
 administrator:
-  email: jitka.novotna@pirati.cz # mail kam pujdou chybove vystupy
+  email: jitka.novotna@pirati.cz # mail(y), kam pujdou chybove vystupy; vice e-mailu oddelujte carkou
 
+organization:
+  name: Česká pirátská strana
+  shortName: Piráti
+  email: info@pirati.cz
+  phone: +420 608 963 111
+  address: |
+    Na Moráni 3,
+    120 00 Praha 2,
+    +420 770 113 642 
+    <a href="mailto:michal.jokes@pirati.cz">michal.jokes@pirati.cz</a>
+  residenceImg: novepice.jpg
+  mapLink: https://mapy.cz/zakladni?x=14.4151543&y=50.0733415&z=18&source=addr&id=9018965&q=Na%20Mor%C3%A1ni%203
+  redmineLink: https://redmine.pirati.cz/projects
+  dataBoxId: b2i4r6j
+  transparentAccount: 2100048174/2010
+
+# Nastavení zobrazení tabulky kontaktů.
+# Lze využít:
+# 1) předdefinované typy (organizationEmail, organizationRedmineLink, organizationPhone, organizationTransparentAccount, organizationDataBox, piratiRootWebsite)
+# 2) vlastní řádky - zde je nutné jako type dát `custom` a vyplnit `label` a `body`
+contactSummaryItems:
+  - type: custom
+    iconClass: fa fa-university
+    label: Název strany</span>
+    body: Česká pirátská strana
+  - type: custom
+    iconClass: fa fa-university
+    label: Zkratka</span>
+    body: Pirát
+  - type: organizationEmail
+  - type: organizationRedmineLink
+  - type: organizationPhone
+  - type: custom
+    iconClass: fa fa-music
+    label: Problémy s OSA, Intergramem apod.</span>
+    body: <a href="mailto:hudba@pirati.cz">hudba@pirati.cz</a>
+  - type: custom
+    iconClass: fa fa-globe
+    label: Zahraniční odbor <br> International Department
+    body: <a href="mailto:international@pirati.cz">international@pirati.cz</a>
+  - type: piratiRootWebsite
+  - type: organizationDataBox
+  - type: custom
+    iconClass: fa fa-university
+    label: Identifikační číslo
+    body: 71339698 
+  - type: organizationTransparentAccount
+    includeMoreLink: true
+
+calendar:
+  # For nice look of the calendar, make sure you get Google Calendar API key
+  # and start the app with the env var `GOOGLE_CALENDAR_APIKEY=[myapikey] bundle exec jekyll serve`.
+  # For deployment, contact website administrator to set you env variable.
+  title: Celostátní kalendář
+  id: nk73m1m89vhf5g2vojp6tnqe58@group.calendar.google.com
+  page: https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=500&amp;wkst=2&amp;hl=cs&amp;bgcolor=%23FFFFFF&amp;src=nk73m1m89vhf5g2vojp6tnqe58%40group.calendar.google.com&ctz=Europe%2FPrague&amp;color=%232952A3
+
+facebook:
+  loadSDK: true
+  #vyplně adresu vaší stranky, funguje pouze na stránky nikoliv skupiny
+  profilePage: https://www.facebook.com/ceska.piratska.strana/
+  profilePageName: Nějaký název FB profilu
+  appId: 1526197851008996
+
+twitter:
+  loadSDK: true
+  profile: PiratskaStrana
+
+instagram:
+  profilePage: https://www.instagram.com/pirati.cz/
+
+gplus:
+  profilePage: https://plus.google.com/u/0/+piratskastrana
+
+flicker:
+  profilePage: https://www.flickr.com/photos/pirati/
+
+forum:
+  page: https://forum.pirati.cz/
+
+github:
+  url: https://github.com/pirati-web/newweb.pirati.cz/
+  branch: master
+
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+github_username:  pirati-web
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
+theme: jekyll-theme-pirati
+
+markdown: kramdown
+theme: jekyll-theme-pirati
 plugins:
+  - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-feed
+  - jekyll-environment-variables
 paginate_path: "/aktuality/:num/"
 paginate: 11
 
@@ -31,80 +129,46 @@ exclude:
   - readme.md
   - Gemfile
   - Gemfile.lock
-  - package.json
-  - bower.json
-  - gulpfile.js
-  - node_modules
-  - bower_components
   - vendor
-  - node_modules
 
-sass:
-    style: compressed
-
-permalink: /tiskove-zpravy/:title.html
+permalink: /aktuality/:title.html
 collections:
   people:
     output: true
     permalink: /lide/:path/
+
   program:
     output: true
     permalink: /program/:path/
-  teams:
-    output: true
-    permalink: /pripoj-se/:title/
-  elections:
-    output: true
-    permalink: /snemovna/:path/
-  eu_elections:
-    output: true
-    permalink: /kandidatka/:path/
+
+  # Sole purpose is to create candidate lists in separate files.
+  candidatelists:
+    output: false
 
 defaults:   # defaults values for collection scope
   -
     scope:
+      path: "_posts"
+    values:
+      layout: "post"
+  -
+    scope:
       path: "_people"
     values:
-      layout: "page"
-      rbar: "people, foto"
+      layout: "person"
+      rbar:
+        - foto
+        - personContact
   -
     scope:
       path: "_program"
     values:
-      layout: "page"
-      rbar: "program"
-  -
-    scope:
-      path: "_program/psp2017"
-    values:
-      layout: "page"
-      rbar: "program program_item"
-  -
-    scope:
-      path: "_program/komunal2018"
-    values:
-      layout: "page"
-  -
-    scope:
-      path: "_teams"
-    values:
-      layout: "team"
-      rbar: "team-summary, teams-toc"
-  -
-    scope:
-      path: "_elections"
-    values:
-      layout: "kandidatka"
-  -
-    scope:
-      path: "_eu_elections"
-    values:
-      layout: "kandidatka2019"
+      layout: "program-post"
+      rbar:
+         - garant
+         - program
 
-calendar: https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=500&amp;wkst=2&amp;hl=cs&amp;bgcolor=%23FFFFFF&amp;src=kddvdvu3adcjef2kro4j6mm838%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=Europe%2FPrague
-fb: https://www.facebook.com/ceska.piratska.strana/
-tw: PiratskaStrana
-
+emptyArray: []
 
 assets:
   source_maps: true
@@ -122,11 +186,9 @@ assets:
       - "last 2 versions"
       - "IE > 9"
   sources:
-    - vendor/bundle/ruby/2.5.0/gems/jekyll-theme-pirati-7.2.0/_sass
+    - vendor/bundle/ruby/2.5.0/gems/jekyll-theme-pirati-7.4.0/_sass
     - assets/css
     - assets/fonts
     - assets/video
     - assets/img
     - _sass
-
-  emptyArray: []

@@ -1,8 +1,11 @@
 ---
 title: Svoboda podnikání
-img: https://www.pirati.cz/_media/rp/program/volny_trh.png
+img: program/dlouhodoby-komix/volny_trh.png
+comic: program/dlouhodoby-komix/volny_trh.png
 category: dlouhodoby
 topic: Hospodářství
+campaignCategoryUid: economy
+campaignGroupUid: dlouhodoby
 ---
 
 Pirátská strana má důvěru ve svobodný trh, který se narozdíl od politických intervencí osvědčil a motivuje k tvorbě hmotných statků. Na druhé straně si uvědomujeme, že hospodářská soutěž není jediným smyslem lidské existence. Proto budeme otevírat prostor pro komunitní projekty a podnikovou demokracii na dobrovolné bázi.

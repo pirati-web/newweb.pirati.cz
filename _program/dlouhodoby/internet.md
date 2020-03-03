@@ -1,7 +1,10 @@
 ---
 title: Internet
-img: https://www.pirati.cz/_media/program/internet.png
+img: program/dlouhodoby-komix/internet.png
+comic: program/dlouhodoby-komix/internet.png
 category: dlouhodoby
+campaignCategoryUid: sharing
+campaignGroupUid: dlouhodoby
 topic: Sdílení
 ---
 

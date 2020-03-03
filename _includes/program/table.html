@@ -1,0 +1,33 @@
+{% if include.campaignGroupUid %}
+  {% assign campaignGroup = site.data.campaigns | where: "groupUid", include.campaignGroupUid | first %}
+{% endif %}
+
+{% if campaignGroup %}
+
+{% assign programMeta = site.program | where: "campaignCategoryUid", 'meta' | sort:"order" %}
+	{% for programSection in programMeta %}
+	<div class="medium-12 large-4 columns o-section-block--medium">
+		<ul>
+			<li><a href="{{programSection.url}}">{{programSection.title}}</a></li>
+		</ul>
+	</div>
+{% endfor %}
+
+{% for campaign in campaignGroup.campaigns %}
+	{% if campaign.categoryUid != 'meta' %}
+	<div class="medium-12 large-4 columns o-section-block--medium">
+		<div class="o-section-header">
+			<h2 class="o-section__heading o-section__heading--small">{{campaign.title}}</h2>
+		</div>
+		<br>
+		<ul>
+			{% assign programSections = site.program | where: "campaignCategoryUid", campaign.categoryUid | sort:"order" %}
+			{% for programSection in programSections %}
+			<li><a href="{{ programSection.url | relative_url }}">{{programSection.title}}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+	{% endif %}
+{% endfor %}
+
+{% endif %}

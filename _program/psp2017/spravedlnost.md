@@ -1,7 +1,8 @@
 ---
 title: Spravedlnost
-category: psp2017
-img: spravedlnost.png
+campaignCategoryUid: psp2017
+campaignGroupUid: psp2017
+img: program/psp2017/spravedlnost.png
 approved: https://forum.pirati.cz/hlasovani-republikoveho-vyboru-f578/rv-23-2017-program-2017-ministerstvo-spravedlnosti-rh1k-t36876.html
 garant:
 relatives:

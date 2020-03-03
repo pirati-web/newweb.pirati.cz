@@ -8,12 +8,12 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.8.5"
+gem "jekyll", "~> 3.7.3"
 
 
 # Používá společné thema to je stále ve vývoji tj změny mužou být velké a je třeba důkladně testovat jestli se věci nerozbíjejí.
 # Comment this line for local development.
-gem "jekyll-theme-pirati", "7.2.0"
+gem "jekyll-theme-pirati", "7.4.0"
 
 # Uncomment this line for local development.
 # gem "jekyll-theme-pirati", github: "pirati-web/jekyll-theme-pirati", branch: "master"
@@ -36,7 +36,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "json" # For gem building
-gem 'sprockets', '4.0.0.beta8'
+gem 'sprockets', '~> 4.0.0.beta'
 gem 'uglifier', '~> 4.0.0'
 gem "mini_magick"
 gem "autoprefixer-rails"

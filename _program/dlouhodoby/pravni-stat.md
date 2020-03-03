@@ -1,8 +1,11 @@
 ---
 title: Právní stát
-img: https://www.pirati.cz/_media/rp/program/zakony.png
+img: program/dlouhodoby-komix/zakony.png
+comic: program/dlouhodoby-komix/zakony.png
 category: dlouhodoby
 topic: Otevřený stát
+campaignCategoryUid: transparency
+campaignGroupUid: dlouhodoby
 ---
 
 Pomocí nových technologií zásadně zpřehledníme právní řád, aby jeho kvalita odpovídala požadavkům moderní informační společnosti. Vytvoříme volně dostupnou aplikaci, kde lidé získají přístup ke všem předpisům v propojené podobě. Pro zvýšení transparence budou lidé moci zákony připomínkovat během jejich vzniku i při jejich používání.

@@ -1,7 +1,8 @@
 ---
 title: Vzdělávání a věda
-category: psp2017
-img: vzdelani.png
+campaignCategoryUid: psp2017
+campaignGroupUid: psp2017
+img: program/psp2017/vzdelani.png
 approved: https://forum.pirati.cz/hlasovani-republikoveho-vyboru-f578/rv-35-2017-program-2017-vzdelavani-a-veda-r-h-1-k-t37117.html
 garant: daniel.mazur
 relatives:

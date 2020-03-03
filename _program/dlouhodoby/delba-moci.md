@@ -2,6 +2,8 @@
 title: Dělba moci
 img:
 category: dlouhodoby
+campaignGroupUid: dlouhodoby
+campaignCategoryUid: democracy
 topic: Demokracie
 ---
 

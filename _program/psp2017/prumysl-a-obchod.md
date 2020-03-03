@@ -1,7 +1,8 @@
 ---
 title: Průmysl a obchod
-category: psp2017
-img: prumysl.png
+campaignCategoryUid: psp2017
+campaignGroupUid: psp2017
+img: program/psp2017/prumysl.png
 approved:  https://forum.pirati.cz/hlasovani-republikoveho-vyboru-f578/rv-22-2017-program-2017-prumysl-a-obchod-r-h-1-k-t36874-10.html
 garant: petr.tresnak
 relatives:

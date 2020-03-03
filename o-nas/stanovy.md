@@ -1,8 +1,10 @@
 ---
 title: Stanovy České pirátské strany
 layout: page
-rbar: twitter, fb, people
-img: miscellaneous/acta-cover.jpg
+rbar: 
+   fb
+   tw
+img: o-nas/acta-cover.jpg
 description: Stanovy České pirátské strany jsou ústřední dokument, který údává základní politické hodnoty a organizační strukturu strany. Kladou velký důraz na demokracii a svobodu slova.
 keywords: stanovy, Pirátské stanovy, Stanovy České pirátské strany, Pirátská strana, Piráti, politické cíle
 ---
@@ -110,7 +112,7 @@ keywords: stanovy, Pirátské stanovy, Stanovy České pirátské strany, Pirát
 - c) [republikové předsednictvo](#Čl-10-republikové-předsednictvo),
 - d) [komise](#Čl-11-komise) a [odbory](#Čl-12-odbory).
 
-(2) Organizační jednotky strany jsou [oblastní sdružení](#Čl-7-oblastní-sdružení) vytvořená na územním principu: oblastní sdružení jsou krajská sdružení a místní sdružení. Místní sdružení vyvíjí činnost v rámci příslušného krajského sdružení a je mu podřízeno. Člen podřízeného oblastního sdružení je tak též členem nadřízeného oblastního sdružení.
+(2) Organizační jednotky strany jsou [oblastní sdružení](#Čl-7-oblastní-sdružení) vytvořená na územním principu: oblastní sdružení jsou krajská sdružení a místní sdružení. Místní sdružení vyvíjí činnost v rámci příslušného krajského sdružení a je mu podřízeno. Člen podřízeného oblastního sdružení je tak též členem nad
 
 (3) V oblastních sdruženích jsou orgány strany
 

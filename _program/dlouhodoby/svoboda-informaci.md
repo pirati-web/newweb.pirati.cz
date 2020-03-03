@@ -1,8 +1,11 @@
 ---
 title: Svoboda informací
-img: https://www.pirati.cz/_media/rp/program/cenzura.png
+img: program/dlouhodoby-komix/cenzura.png
+comic: program/dlouhodoby-komix/cenzura.png
 category: dlouhodoby
 topic: Občanská práva
+campaignCategoryUid: rights
+campaignGroupUid: dlouhodoby
 ---
 
 Zakázané šíření informací mělo v naší historii klíčový význam, protože narušovalo informační monopol totalitních režimů. V exilu vydával díla Komenský, samizdatem šířili spisy disidenti a pirátsky vysílal okupovaný rozhlas. V informační společnosti 21. století je svoboda informací ještě důležitější. Piráti zastupují další generaci, která si musí vydobýt svoji svobodu!

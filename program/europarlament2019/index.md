@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Volební program pro volby do Evropského parlamentu 2019
-img: miscellaneous/volebni-rozcestnik.png
+img: program/rozcestnik.png
 rbar: ""
-keywords: europarlament, program, program do evropských voleb, program EP, evropský program, program evropská unie, program evropský parlament, euro, migrace, ekologie evropa, program, evropská politika, ochrana spotřebitele, evropské daně,
+keywords: europarlament, program, program do evropských voleb
 ---
 
 # 20 priorit Pirátů pro EVROPSKÝ PARLAMENT
@@ -47,5 +47,5 @@ Určili jsme si 20 nejdůležitějších bodů, kterým se chceme na úrovni Evr
 
 
 
-Společný program [Evropské pirátské strany](https://european-pirateparty.eu/) najdete [zde](https://evropapotrebuje.cz/program/spolecny-eu-pirati/zivotni-prostredi/).
+Společný program [Evropské pirátské strany](https://european-pirateparty.eu/) najdete [zde](preambule/).
 

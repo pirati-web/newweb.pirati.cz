@@ -1,8 +1,11 @@
 ---
 title: Transparentní organizace
-img: https://www.pirati.cz/_media/program/transparence.jpg
+img: program/dlouhodoby-komix/transparence.jpg
+comic: program/dlouhodoby-komix/transparence.jpg
 category: dlouhodoby
 topic: Otevřený stát
+campaignCategoryUid: transparency
+campaignGroupUid: dlouhodoby
 ---
 
 Otevřenost je nejlepším lékem na všudypřítomnou korupci a plýtvání. Moderní technologie nám daly jedinečnou možnost státní hospodaření dokonale zprůhlednit. Piráti prosazují bezodkladné nasazení modelu transparentní organizace, který sami úspěšně používají a který vrací do veřejného života důvěru.

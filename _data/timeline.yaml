@@ -1,0 +1,30 @@
+# icon jsou "fa fa-{{icon}}" 
+# priority:
+# 1 - velké úspěchy ovlivňující celou společnost na kterých jsem přímo pracoval (prosazené projekty, přijaté zákony a pozměňováky)
+# 2 - úspěchy s reálným dopadem
+# 3 - dílčí úspěchy
+# 4 - informace
+- img: /assets/img/timeline/bojujeme-proti-danovym-rajum.webp
+  icon: flag
+  date: 2019-04-13
+  title: Bojujeme proti daňovým rájům
+  description: "Kde firma podniká, tam má také danit. Abychom toho dosáhli, máme v plánu zabránit únikům státních peněz do daňových rájů. Třeba zavedením daně z digitálních služeb na úrovni EU, tlakem na novelizaci legislativy o veřejných zakázkách a na registr koncových vlastníků. V neposlední řadě iniciujeme úpravy zákona o dani z příjmu, která zacelí mezery v českém daňovém právu."
+  priority: 2
+- img: /assets/img/timeline/predstavili-jsme-dlouhodobou-vizi-vzdelavani.webp
+  icon: flag
+  date: 2019-04-03
+  title: Představili jsme dlouhodobou vizi vzdělávání
+  description: "Vzdělávací systém potřebuje vizi. Prostřednictvím našeho poslance Lukáše Bartoně jsme proto představili náš plán www.vzdelavani2030.cz. Jak si představujeme budoucnost? Chceme, aby škola připravovala člověka na život v digitálně propojené společnosti, ve které hraje klíčovou roli schopnost pracovat s informacemi a vyhodnocovat je. A díky tomu se lépe rozhodovat ve svůj vlastní prospěch a dělat v životě lepší volby. Nabídka vzdělání by měla tvořit pestrou paletu tak, aby každý člověk mohl plnohodnotně rozvinout svůj unikátní tvořivý potenciál."
+  priority: 1
+- img: /assets/img/timeline/nechceme-cekat-na-chvili-kdy-nam-planeta-vystavi-svuj-ucet.jpg
+  icon: child
+  date: 2019-04-02
+  title: Nechceme čekat na chvíli, kdy nám planeta vystaví svůj účet
+  description: "Upozorňovali jsme na alarmující závěry ve zprávě OSN o stavu životního prostředí, vyzvali jsme vládu ke vstupu do jednání o polském programu na ochranu ovzduší a v neposlední řadě jsme se stovkami dobrovolníků po celé ČR už poněkolikáté pomáhali s úklidem Česka. " 
+  priority: 2
+- img: /assets/img/timeline/vlajkovy-zakon-digitalizace-je-na-svete.webp
+  icon:  thumbs-up
+  date: 2019-04-01
+  title: Vlajkový zákon digitalizace je na světě!
+  description: "Ve spolupráci s vládním zmocněncem pro IT a digitalizaci Vladimírem Dzurillou, prezidentem ICT UNIE Zdeňkem Zajíčkem a zástupci sněmovních stran jsme spolunavrhli vlajkový zákon digitalizace státu, který podepsalo celkem 137 poslanců. Co to přinese občanovi? Zákon mu garantuje možnost komunikovat se státem online. Je to sice začátek dlouhé cesty, ale široký konsenzus dává dobrý základ pro další spolupráci. Nám se do současného návrhu navíc povedlo prosadit otevřená data a technologickou neutralitu. To znamená, že si občan nebude muset pro komunikaci s úřady pořizovat další software, jako tomu bylo například dříve u datových schránek." 
+  priority: 2

@@ -1,145 +1,62 @@
 ---
 layout: default
-img: miscellaneous/residence.png
+description: Pirátská strana v XY je otevřená a ráda přivítá dobrovolníky a odpoví na dotazy kritiků.
+keywords: kontakt, adresa, telefon, mail, facebook, kde najdu, kde jsou, tisková mluvči
+# Pokud nechcete, aby se zobrazovalo kontaktní místo, můžete odkomentovat následující řádek:
+# noresidence: yes
+contentSize: default
+# Pokud chcete aby obsah a tabulka kontaktů měly stejné proporce, můžete použít:
+# contentSize: even
+text1: "Prohlédněte si naše [lidi](lide). Můžete je najít i na  [mapě](https://www.google.com/maps/d/viewer?mid=1tmKjKVOgREAa6fjWfyQdj1_PkWZfkisk&ll=49.323982508814204%2C17.503583065624866&z=8) nebo [pirátské akci](pripoj-se/kalendar). Každý člen strany má email ve tvaru: *jmeno.prijmeni@pirati.cz*."
+text2:  "Adresu a pokyny pro zasílání účetních dokladů najdete [zde](https://wiki.pirati.cz/fo/doklady)."
 ---
 
-<div class="row o-section-block o-section-block--divided">
+<div class="row o-section-block ">
   <div class="medium-12 large-12 columns">
     <section class="o-section">
       <div class="o-section-inner">
         <main class="o-section-block">
           <!-- Article -->
-          <article itemtype="http://schema.org/BlogPosting" class="c-BasicPage" itemscope="">
+          <article itemtype="http://schema.org/BlogPosting" itemscope="">
             <!--<link itemprop="mainEntityOfPage" href="http://insertshownpagelinkhere.com">-->
-            <header class="c-BasicPage-header c-BasicPage-header--horizontal">
-              <h1 itemprop="headline" class="c-BasicPage__title"> Kontaktní informace </h1>
+
+
+{% include map.html title="Krajská sdružení" api="/api/regions.json" %}
+
+{% include button/central.html text="<i class='fa fa-users'></i> &nbsp; Naloď se!" url="https://nalodeni.pirati.cz" %}
+
+            <header class="c-page-header">
+              <h1 itemprop="headline" class="c-page-title">Kontaktní informace </h1>
             </header>
             <div class="o-section-block o-section-block--fill">
               <div class="u-cf">
-                <div class="medium-12 large-7 columns o-section-mediumdown-divided-small">
-                  <div class="c-BasicPage-content">
-                    <h2>Základní údaje</h2>
-                    <table>
-                      <tbody>
-                        <tr>
-                          <td class="cell-description">
-                            <i class="cell-icon fa fa-university"></i>
-                            <span class="cell-text">Název strany</span>
-                          </td>
-                          <td> Česká pirátská strana </td>
-                        </tr>
-                        <tr>
-                          <td class="cell-description">
-                            <i class="cell-icon fa fa-university"></i>
-                            <span class="cell-text">Zkratka</span>
-                          </td>
-                          <td> Piráti </td>
-                        </tr>
-                        <tr>
-                          <td class="cell-description">
-                            <i class="cell-icon fa fa-envelope"></i>
-                            <span class="cell-text">Elektronická podatelna,
-                              <br> kontakt pro veřejnost</span>
-                          </td>
-                          <td>
-                            <a href="mailto:info@pirati.cz">info@pirati.cz</a> (elektronická pošta)
-                            <br>
-                            <a href="https://redmine.pirati.cz/projects/ps/wiki/Podatelna">podatelna</a> (systém redmine) </td>
-                        </tr>
-                        <tr>
-                          <td class="cell-description">
-                            <i class="cell-icon fa fa-phone"></i>
-                            <span class="cell-text">Informace, telefonický kontakt</span>
-                          </td>
-                          <td> +420 608 963 111 </td>
-                        </tr>
-                        <tr>
-                          <td class="cell-description">
-                            <i class="cell-icon fa fa-music"></i>
-                            <span class="cell-text">Problémy s OSA,
-                              <br> Intergramem apod.</span>
-                          </td>
-                          <td>
-                            <a href="mailto:hudba@pirati.cz">hudba@pirati.cz</a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="cell-description">
-                            <i class="cell-icon fa fa-globe"></i>
-                            <span class="cell-text">Zahraniční odbor
-                              <br> International Department</span>
-                          </td>
-                          <td>
-                            <a href="mailto:international@pirati.cz">international@pirati.cz</a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="cell-description">
-                            <i class="cell-icon fa fa-desktop"></i>
-                            <span class="cell-text">Internetová stránka</span>
-                          </td>
-                          <td>
-                            <a href="https://www.pirati.cz">www.pirati.cz</a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="cell-description">
-                            <i class="cell-icon fa fa-files-o"></i>
-                            <span class="cell-text">Datová schránka</span>
-                          </td>
-                          <td> b2i4r6j </td>
-                        </tr>
-                        <tr>
-                          <td class="cell-description">
-                            <i class="cell-icon fa fa-university"></i>
-                            <span class="cell-text">Sídlo – adresa</span>
-                          </td>
-                          <td> Na Moráni 360/3, 128 00 Praha 2 </td>
-                        </tr>
-                        <tr>
-                          <td class="cell-description">
-                            <i class="cell-icon fa fa-university"></i>
-                            <span class="cell-text">Sídlo – kontakt</span>
-                          </td>
-                          <td> +420 721 440 102
-                            <br>
-                            <a href="mailto:michal.hrib@pirati.cz">michal.hrib@pirati.cz</a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="cell-description">
-                            <i class="cell-icon fa fa-university"></i>
-                            <span class="cell-text">Identifikační číslo</span>
-                          </td>
-                          <td> 71339698 </td>
-                        </tr>
-                        <tr>
-                          <td class="cell-description">
-                            <i class="cell-icon fa fa-university"></i>
-                            <span class="cell-text">Transparentní účty</span>
-                          </td>
-                          <td> 2100048174/2010 a <a href="https://wiki.pirati.cz/fo/seznam_uctu">další účty</a> u banky Fio </td>
-                        </tr>
-                      </tbody>
-                    </table>
+
+
+                <div class="medium-12 large-8 columns o-section-mediumdown-divided-small">
+                  <div itemprop="description" class="c-content-block c-emphasized-text">
+
+<div class="o-section-header o-section-header--indented">
+  <h1 class="t-h2-alt">Piráti</h1>
+</div>
+
+{{ page.text1 | markdownify }}
+
+
+<div class="o-section-header o-section-header--indented">
+ <h1 class="t-h2-alt"> Zasílání účetních dokladů </h1>
+</div>
+
+
+{{ page.text2 | markdownify }}
+
+
                   </div>
                 </div>
-                <div class="medium-12 large-5 columns o-section-mediumdown-divided-small">
-                  <div class="c-BasicPage-content">
-                    <h2>Zasílání účetních dokladů</h2>
-                    <p> Adresu a pokyny pro zasílání účetních dokladů najdete
-                      <a href="doklady.html">zde</a>. </p>
+                <div class="medium-12 {% if page.contentSize == 'even' %}large-6{% else %}large-4{% endif %} columns o-section-mediumdown-divided-small">
+                  <div class="o-section-header o-section-header--indented">
+                    <h2 class="t-h2-alt">Základní údaje</h2>
                   </div>
-                  <div class="c-BasicPage-content">
-                    <h2>Další kontakty</h2>
-                    <p> Další osoby naleznete na stránce
-                      <a href="{{'/lide/' | relative_url}}">Lidé</a>. </p>
-                    <p> Setkat se s námi můžete v některém z
-                      <a href="https://drive.google.com/open?id=1kzqRg9Eh6HUXT1uKyUUY_oLoxrA&usp=sharing">Pirátských míst</a> nebo
-                      <a href="{{'pripoj-se/kalendar/' | relative_url }}">pirátské akci</a>. </p>
-                    <p> Pro pomoc a radu v odborných otázkách kopírovacího monopolu či jiných se obracejte na
-                      <a href="https://forum.pirati.cz/verejna-poradna-f795/">Pirátskou poradnu</a> na fóru. </p>
-                  </div>
+                  {% include contacts/summary-table.html %}
                 </div>
               </div>
             </div>
@@ -149,24 +66,64 @@ img: miscellaneous/residence.png
     </section>
   </div>
 </div>
-<hr>
-<div class="row o-section-block o-section-block--divided">
-  <div class="medium-12 large-12 columns">
+
+<div class="row o-section-block">
+  <div class="medium-12 {% if page.contentSize == 'even' %}large-6{% else %}large-8{% endif %} columns">
     <section class="o-section o-section--spaceBot">
+
+{% if page.contactPersons %}
+      {% for contact in page.contactPersons %}
+      {% assign person = site.people | where_exp:"item","item.uid contains contact.id" | first %}
+      <div class="o-section-header o-section-header--indented">
+          <h2 class="t-h2-alt"> {{contact.position}} </h2>
+      </div>
       <div class="o-section-inner">
         <div class="o-section-block">
-          <div class="c-BasicPage">
-            <div class="c-BasicPage-content">
-              <h2>Kontakt pro média</h2>
-                {% assign team = site.people | where_exp:"item","item.categories contains 'mo-contact'"  | sort:"ordkontakty" %}
-                {% include people/list-2col.html param=team %}
-              <br>
-              <h2>Kontakt pro veřejnost</h2>
-               <i class="cell-icon fa fa-envelope"></i> <a href="mailto:info@pirati.cz">info@pirati.cz</a>
-            </div>
-          </div>
+            {% include people/profile-badge.html item=person imgSize='big' imgStyle='round' class='c-profile-badge--centered' %}
         </div>
       </div>
+      <br/>
+      {% endfor %}
+{% else %}
+      {% assign contactPersons = site.people | where_exp: "item","item.category contains 'kontaktni_osoba'" | sort:"ordpak" %}
+      <div class="o-section-header o-section-header--indented">
+          {% if contactPersons.size > 1 %}
+	          <h2 class="t-h2-alt">Kontaktní osoby</h2>
+          {% else %}
+              <h2 class="t-h2-alt">Kontaktní osoba</h2>
+          {% endif %}
+      </div>
+      {% for person in contactPersons %}
+      <div class="o-section-inner">
+        <div class="o-section-block">
+            {% include people/profile-badge.html item=person imgSize='big' imgStyle='round' class='c-profile-badge--centered' %}
+        </div>
+      </div>
+      <br/>
+      {% endfor %}
+{% endif %}
+	    
     </section>
   </div>
+
+  {% unless page.noresidence %}
+  <div class="medium-12 {% if page.contentSize == 'even' %}large-6{% else %}large-4{% endif %} columns">
+    <div class="o-section o-section--spaceBot">
+      <div class="o-section-header o-section-header--indented">
+          <h2 class="t-h2-alt">Sídlo a kontaktní centrum</h2>
+      </div>
+      <div class="o-section-inner">
+        <div class="o-section-block">
+	  {% if page.residences %}
+	  	{% for residence in page.residences %}
+          		{% include contacts/residence.html residence=residence%}
+	  	{% endfor %}
+	  {% else %}
+          	{% include contacts/residence.html %}
+	  {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endunless %}
 </div>

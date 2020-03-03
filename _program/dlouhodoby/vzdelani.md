@@ -1,8 +1,11 @@
 ---
 title: Vzdělání
-img: https://www.pirati.cz/_media/program/znalosti_versus_rozum.png
+img: program/dlouhodoby-komix/znalosti_versus_rozum.png
+comic: program/dlouhodoby-komix/znalosti_versus_rozum.png
 category: dlouhodoby
 topic: Veřejné služby
+campaignCategoryUid: service
+campaignGroupUid: dlouhodoby
 ---
 
 Pirátská strana prosazuje co nejdostupnější vzdělání, které rozvíjí přirozenou tvořivost, podporuje svobodné myšlení a vychovává k demokracii.

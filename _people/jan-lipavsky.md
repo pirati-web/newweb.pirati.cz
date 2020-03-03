@@ -22,10 +22,10 @@ profiles:
   twitter: 	
   instagram:    
   flickr:		    https://www.flickr.com/search/?user_id=68741528%40N03&sort=date-taken-desc&text=jan%20lipavsk%C3%BD&view_all=1
-ordpsp: 3
+  report: https://forum.pirati.cz/poslanci-f884/report-poslance-jana-lipavskeho-t39022.html
+ordpsp: 5
 report: 1E2WqnQfo53CQSNy1sS6Dfm5WUjWmyRA8
 redmine: 124
-mpv: 124
 ---
 
 Jan Lipavský (* 2. července 1985) je Pirát, který se soustředí především na bezpečnost a zahraniční politiku. Pracuje například za vzniku zákona chránícího strategická odvětví české ekonomiky před ztrátou citlivých dat a know-how. Kontroluje také činnost českých tajných služeb a zasazuje se o zachování jejich nezávislosti. Je Pražákem srdcem a duší, na Praze 6 se narodil a v současnosti tam také s rodinou žije. 

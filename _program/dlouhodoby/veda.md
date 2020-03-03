@@ -3,6 +3,8 @@ title: Věda a výzkum
 img:
 category: dlouhodoby
 topic: Veřejné služby
+campaignCategoryUid: service
+campaignGroupUid: dlouhodoby
 ---
 
 Piráti jsou si vědomi toho, že špičková věda a výzkum jsou nezbytnou součástí dobře fungující informační společnosti. Chceme především důsledně používat otevřený přístup k vědeckým, výzkumným a studijním materiálům a podporovat špičková vědecká pracoviště.

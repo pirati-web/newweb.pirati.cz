@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+{% include page-header.html headline=page.title content=content %}
+
+{% if page.viewMode == 'grouped' %}
+  {% for group in page.groups %}
+    <div class="row o-section-block">
+      <section class="large-12 columns">
+          {% if group.subcategory %}
+             <ul class="c-simple-accordion" data-accordion="" data-options="allowAllClosed: true">
+                  <li class="c-simple-accordion-item is-active" data-accordion-item="">
+                    <a href="#{{ include.teamShortcut }}" class="c-simple-accordion-title"><h2 class="c-simple-accordion__headline">{{ group.name }}</h2></a>
+                    <div id="{{ include.teamShortcut }}" class="c-simple-accordion-content" data-tab-content="">
+            {% for subgroup in group.subcategory %}
+              {% assign team = site.people | where_exp: "item", "item.categories contains subgroup.category" %}
+              {% if group.sort %}
+                {% assign team = team | sort: subgroup.sort %}
+              {% endif %}
+              <h3> {{ subgroup.name }} </h3>
+              {% include people/list-responsive.html team=team %}
+            {% endfor %}
+                    </div>
+                  </li>
+                </ul>
+          {% else %}
+            {% assign team = site.people | where_exp: "item", "item.categories contains group.category" %}
+            {% if group.sort %}
+              {% assign team = team | sort: group.sort %}
+            {% endif %}
+          {% include people/list-group.html team=team teamName=group.name teamShortcut=group.category %}
+          {% endif %}
+      </section>
+    </div>
+  {% endfor %}
+{% else %}
+  {% if page.category %}
+    {% assign team = site.people | where_exp: "item", "item.categories contains page.category" %}
+  {% else %}
+    {% assign team = site.people %}
+  {% endif %}
+
+  {% if page.sort %}
+    {% assign team = team | sort: page.sort %}
+  {% endif %}
+
+  <div class="row o-section-block">
+    <section class="large-12 columns">
+      {% include people/list-responsive.html team=team %}
+    </section>
+  </div>
+{% endif %}

@@ -2,6 +2,8 @@
 title: Pirátské dvanáctero
 img:
 category: dlouhodoby
+campaignGroupUid: dlouhodoby
+campaignCategoryUid: meta
 topic: meta
 ---
 

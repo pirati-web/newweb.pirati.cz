@@ -1,20 +1,18 @@
 ---
 uid: karolina.sadilkova
 name:     Karolína Sadílková  	# běžně používáné jméno
-fullname: Mgr. Karolína Sadílková  	# jméno s tituly etc.
+titles:
+  before: Mgr.
+  after:
 category:                 	# kategorie: rp, praha, vary, hradec, jmk, senat
-- mo-contact
+- kontaktni_osoba
+contactType: Kontakt pro média
 img: people/karolina-sadilkova.jpg    # 165 x 220
 description: PR manager a tisková mluvčí            	# kratký popis, max 160 znaků
 mail:
 - karolina.sadilkova@pirati.cz
 mob:
 - +420 776 505 557
-nepritomnost:
-- name: Jakub Dušánek
-  tel: +420 770 138 763
-- name: Andrea Mádlová
-  tel: +420 778 111 473
 profiles:
   github:     
   facebook: https://www.facebook.com/karolina.kyselova

@@ -26,10 +26,9 @@ profiles:
   github:                 
   facebook: 		  https://www.facebook.com/ArAx666
   twitter: 		  
-  flickr: https://www.flickr.com/search/?user_id=68741528%40N03&view_all=1&text=Jan_Po 
+  flickr:     		  https://www.flickr.com/search/?user_id=68741528%40N03&sort=date-taken-desc&text=jan%20po%C5%A1v%C3%A1%C5%99&view_all=1
 ordpsp: 10
 redmine: 219
-mpv: 219
 report: 1sXIZ706V7IJMuZETOl33SNVRwXvwTF7y
 calendar: 3jlgg8p8nnj3k6t1gduajv0m1g%40group.calendar.google.com
 ---
