@@ -1,11 +1,8 @@
 ---
 title: Svoboda projevu
-img: program/dlouhodoby-komix/svoboda_projevu.png
-comic: program/dlouhodoby-komix/svoboda_projevu.png
+img: https://www.pirati.cz/_media/program/svoboda_projevu.png
 category: dlouhodoby
 topic: Občanská práva
-campaignCategoryUid: rights
-campaignGroupUid: dlouhodoby
 ---
 
 Piráti se zasazují o liberální společnost, kde má každý člověk právo projevit svůj názor. Stávající občanská práva jako právo petiční chceme aktualizovat pro digitální věk. Usilujeme o liberální úpravu shromažďovacího práva, aby měl člověk na ulici stejnou anonymitu jako na Internetu.

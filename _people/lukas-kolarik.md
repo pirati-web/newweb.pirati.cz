@@ -8,7 +8,7 @@ category:                 	# kategorie: rp, praha, vary, hradec, jmk, senat
 - psp
 img: people/lukas-kolarik.jpg   # 165 x 220
 description: poslanec PSP ČR za Jihočeský kraj           	# kratký popis, max 160 znaků
-ordpsp: 17
+ordpsp: 5
 direct-contact: false
 mail:
 - lukas.kolarik@pirati.cz
@@ -20,9 +20,10 @@ profiles:
   github:                 
   facebook: 		  https://www.facebook.com/kolarikl
   twitter: 		  
-  flickr:  
+  flickr: https://www.flickr.com/search/?user_id=68741528%40N03&view_all=1&text=Luk..Kol 
 report: 1al2esyduRQuaz4TqcETGmDm43wZ8V-iD
 redmine: 151
+mpv: 151
 report_orig: https://forum.pirati.cz/poslanci-f884/report-poslance-lukase-kolarika-t39023.html
 ---
 

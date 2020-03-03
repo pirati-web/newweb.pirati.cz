@@ -3,8 +3,6 @@ title: Služební zákon
 img:
 category: dlouhodoby
 topic: Otevřený stát
-campaignCategoryUid: transparency
-campaignGroupUid: dlouhodoby
 ---
 
 Prosazujeme urychlené zavedení **služebního zákona**, který považujeme za nutnou podmínku profesionální, efektivní a nezkorumpované státní správy.

@@ -1,7 +1,5 @@
 ---
 title: 20 nejdůležitějších bodů pirátského programu
-campaignCategoryUid: metaPSP
-campaignGroupUid: psp2017
 ---
 
 Představujeme vám programové priority Pirátů pro sněmovní volby schválené členy Pirátů ve vnitrostranickém referendu. Podrobně rozepsané je najdete na [pirati.cz/program](https://www.pirati.cz/program).

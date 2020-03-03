@@ -3,8 +3,6 @@ title: Demokratické minimum
 img:
 category: dlouhodoby
 topic: meta
-campaignCategoryUid: meta
-campaignGroupUid: dlouhodoby
 ---
 
 <div class="callout notice">Demokratické minimum je prohlášení, které je kandidát Pirátské strany povinen podepsat před každými volbami. Ostatní politické subjekty se mohou k prohlášení připojit dle libosti.</div>

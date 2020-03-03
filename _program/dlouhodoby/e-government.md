@@ -1,10 +1,7 @@
 ---
 title: E-government
-img: program/dlouhodoby-komix/e-goverment.png
-comic: program/dlouhodoby-komix/e-goverment.png
+img: https://www.pirati.cz/_media/program/e-government.png
 category: dlouhodoby
-campaignGroupUid: dlouhodoby
-campaignCategoryUid: transparency
 topic: Otevřený stát
 ---
 

@@ -1,11 +1,8 @@
 ---
 title: Přímá demokracie
-img: program/dlouhodoby-komix/prima_demokracie_poslanec.png
-comics: program/dlouhodoby-komix/prima_demokracie_poslanec.png
+img: https://www.pirati.cz/_media/program/prima_demokracie_poslanec.png
 category: dlouhodoby
 topic: Demokracie
-campaignCategoryUid: democracy
-campaignGroupUid: dlouhodoby
 ---
 
 Systém rozdělení moci v republice i na evropské úrovni mezi staré struktury důsledně nahradíme demokracií. Demokracie vyžaduje přímou volbu a možnost odvolání vedoucích představitelů, zákonodárnou iniciativu, referenda a zapojení občanů do všech fází přípravy a schvalování legislativy.

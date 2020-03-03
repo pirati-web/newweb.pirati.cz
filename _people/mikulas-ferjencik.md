@@ -13,7 +13,7 @@ mail:
 - mikulas.ferjencik@pirati.cz
 mob:			  +420 737 943 770
 office: 
-  - address: Sladkovského 482, 530 02 Pardubice
+  - address: Masarykovo náměstí 1484, 530 02 Pardubice
     opening: pondělí 9:00 - 11:00, čtvrtek 14:00 - 16:00, po domluvě na tel. č. 604 794 181
 asistenti:
   - name: Lucie Procházková
@@ -26,13 +26,13 @@ profiles:
   github:       https://github.com/mifer
   facebook:     https://www.facebook.com/mikfer
   twitter: 		  https://twitter.com/Mikiferjencik
-  flickr:		  https://www.flickr.com/search/?user_id=68741528%40N03&sort=date-taken-desc&view_all=1&text=mikul%C3%A1%C5%A1%20ferjen%C4%8D%C3%ADk
-  report: https://forum.pirati.cz/poslanci-f884/report-mikulase-ferjencika-rijen-listopad-prosinec-t39047.html
+  flickr: https://www.flickr.com/search/?user_id=68741528%40N03&view_all=1&text=Ferjen
 ordpraha: 3
 ordkontakty: 1
 ordpsp: 14
 report: 1akbyCaxK-KcoexCJ0yLZSb-eBRvzswYf
 redmine: 17
+mpv: 17
 calendar: mikulas.ferjencik%40gmail.com
 ---
 

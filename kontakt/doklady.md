@@ -1,6 +1,6 @@
 ---
 layout: page
-img: novepice.jpg
+img: miscellaneous/residence.png
 ---
 
 ## Vystavování a zasílání dokladů

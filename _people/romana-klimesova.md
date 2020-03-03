@@ -1,18 +1,15 @@
 ---
-uid: romana.klimesova
+uid: ljuba.polakova
 name:     Romana Klimešová 	# běžně používáné jméno
-titles:
-  before:
-  after:
+fullname: Romana Klimešová  	# jméno s tituly etc.
 category:                 	# kategorie: rp, praha, vary, hradec, jmk, senat
-- kontaktni_osoba
-contactType: Kontakt pro veřejnost
+- ao-contact
 img: people/romana-klimesova.jpg    # 165 x 220
 description: Kontakt pro veřejnost<br/>Volejte ve všední dny mezi 9:00 až 17:00   	# kratký popis, max 160 znaků
 mail:
 - info@pirati.cz
 mob:
-- +420 608 963 111
+-
 profiles:
   github:    
   facebook:

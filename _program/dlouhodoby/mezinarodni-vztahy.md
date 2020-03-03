@@ -1,11 +1,8 @@
 ---
 title: Mezinárodní vztahy
-img: program/dlouhodoby-komix/gandhi.png
-comic: program/dlouhodoby-komix/gandhi.png
+img: https://www.pirati.cz/_media/program/gandhi.png
 category: dlouhodoby
 topic: Sdílení
-campaignCategoryUid: sharing
-campaignGroupUid: dlouhodoby
 ---
 
 **Mezinárodní vztahy**
